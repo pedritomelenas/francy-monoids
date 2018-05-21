@@ -10,3 +10,7 @@ This package requires [francy](https://github.com/mcmartins/francy) and [numeric
 - Functions to draw the tree of the sons of a numerical semigroup. See `tree_semigroups.g`.
 - Functions to draw the graphs of an element of a numerical semigroup. See `graphs_element.g`.
 - Functions to draw the tree of gluings of a numerical semigroup. See `gluings.g`.
+
+## Examples
+
+See the examples directory for a jupyter notebook and a gap file with examples.
