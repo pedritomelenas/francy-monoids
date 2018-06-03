@@ -222,7 +222,7 @@ InstallGlobalFunction(DrawOverSemigroupsNumericalSemigroup, function(s)
     Add(graphHasse,ovs[i]);
     od;
     for r in c do
-        Add(graphHasse,Link(ovs[r[1]],ovs[r[2]]));
+        Add(graphHasse,Link(ovs[r[2]],ovs[r[1]]));
     od;
     canvas:=Canvas("Oversemigroups");
     SetTexTypesetting(canvas, true);
