@@ -200,7 +200,7 @@ InstallGlobalFunction(DrawOverSemigroupsNumericalSemigroup, function(s)
 
     ov:=OverSemigroupsNumericalSemigroup(s);
     n:=Length(ov);
-    graphHasse := Graph(GraphType.UNDIRECTED);
+    graphHasse := Graph(GraphType.DIRECTED);
     SetSimulation(graphHasse,true);
     SetDrag(graphHasse,true);
     c:=Cartesian([1..n],[1..n]);
