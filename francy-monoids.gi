@@ -361,7 +361,7 @@ function(s, A, t...)
     end;
     
     # Initialize the graph
-    graphHasse := Graph(GraphType.UNDIRECTED);
+    graphHasse := Graph(GraphType.DIRECTED);
     SetSimulation(graphHasse, true);
     SetDrag(graphHasse, true);
     
