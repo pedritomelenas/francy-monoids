@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<Chapter Label="Chapter_FrancyMonoids_automatic_generated_documentation">
+<Heading>FrancyMonoids automatic generated documentation</Heading>
+
+<Section Label="Chapter_FrancyMonoids_automatic_generated_documentation_Section_FrancyMonoids_automatic_generated_documentation_of_methods">
+<Heading>FrancyMonoids automatic generated documentation of methods</Heading>
+
+<ManSection>
+  <Oper Arg="f" Name="DrawFactorizationGraph" Label="for IsRectangularTable"/>
+ <Returns>a drawing
+</Returns>
+ <Description>
+f is a set of factorizations
+Draws the graph of factorizations associated to f: a complete graph
+ whose vertices are the elements of f. Edges are labelled with
+distances between nodes they join. Kruskal algorithm is used to
+draw in red a spannin tree with minimal distances. Thus the catenary
+degree is reached in the edges of the tree.
+ </Description>
+</ManSection>
+
+
+<ManSection>
+  <Oper Arg="f" Name="DrawEliahouGraph" Label="for IsRectangularTable"/>
+ <Returns>a drawing
+</Returns>
+ <Description>
+f is a set of factorizations
+ Draws the Eliahou graph of factorizations associated to f: a graph
+ whose vertices are the elements of f, and there is an edge between
+two vertices if they have common support. Edges are labelled with
+distances between nodes they join.
+ </Description>
+</ManSection>
+
+
+<ManSection>
+  <Oper Arg="n,s" Name="DrawRosalesGraph" Label="for IsHomogeneousList,IsAffineSemigroup"/>
+ <Returns>a drawing
+</Returns>
+ <Description>
+s is either a numerical semigroup or an affine semigroup, and n is an
+element of s
+Draws the graph associated to n in s.
+ </Description>
+</ManSection>
+
+
+<ManSection>
+  <Oper Arg="arg1,arg2" Name="DrawRosalesGraph" Label="for IsInt,IsNumericalSemigroup"/>
+ <Description>
+<P/>
+ </Description>
+</ManSection>
+
+
+</Section>
+
+
+<Section Label="Chapter_FrancyMonoids_automatic_generated_documentation_Section_FrancyMonoids_automatic_generated_documentation_of_global_functions">
+<Heading>FrancyMonoids automatic generated documentation of global functions</Heading>
+
+<ManSection>
+  <Func Arg="s" Name="DrawOverSemigroupsNumericalSemigroup" />
+ <Returns>a drawing
+</Returns>
+ <Description>
+Draws the Hasse diagram of
+  oversemigroupstree of the numerical semigroup s.
+Irreducible numerical semigroups are highlighted.
+ </Description>
+</ManSection>
+
+
+<ManSection>
+  <Func Arg="s,l,generators" Name="DrawTreeOfSonsOfNumericalSemigroup" />
+ <Returns>a drawing
+</Returns>
+ <Description>
+Draws the tree of sons of numerical semigroups up to level l with
+  respect to the minimal system of generators given by the function
+generators.
+ </Description>
+</ManSection>
+
+
+<ManSection>
+  <Func Arg="s,A" Name="DrawHasseDiagramOfNumericalSemigroup" />
+ <Returns>a drawing
+</Returns>
+ <Description>
+plots a graph whose set of vertices is A, which is a finite set of
+integers, and whose edges are provided by the order of the numerical
+semigroup s.
+ </Description>
+</ManSection>
+
+
+<ManSection>
+  <Func Arg="s,[expand]" Name="DrawTreeOfGluingsOfNumericalSemigroup" />
+ <Returns>a drawing
+</Returns>
+ <Description>
+Returns a Francy canvas with the tree of gluings of the numerical
+semigroup s. If the optional argument expand is provided, then
+the tree is drawn fully expanded.
+ </Description>
+</ManSection>
+
+
+</Section>
+
+
+</Chapter>
+

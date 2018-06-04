@@ -24,4 +24,4 @@ This package requires [francy](https://github.com/mcmartins/francy) and [numeric
 
 ## Examples
 
-See the examples in the jupyter notebook in the Examples directory.
+See the examples in the jupyter notebook or in Examples directory.

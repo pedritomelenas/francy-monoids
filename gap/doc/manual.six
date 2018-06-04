@@ -1,0 +1,50 @@
+#SIXFORMAT  GapDocGAP
+HELPBOOKINFOSIXTMP := rec(
+encoding := "UTF-8",
+bookname := "FrancyMonoids",
+entries :=
+[ [ "Title page", ".", [ 0, 0, 0 ], 1, 1, "title page", "X7D2C85EC87DD46E5" ],
+  [ "Table of Contents", ".-1", [ 0, 0, 1 ], 44, 2, "table of contents", 
+      "X8537FEB07AF2BEC8" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2YFrancyMonoids automatic generated documentation\\
+033[133X\033[101X", "1", [ 1, 0, 0 ], 1, 3, 
+      "francymonoids automatic generated documentation", "X860A68B479E58E03" ]
+    , 
+  [ 
+      "\033[1X\033[33X\033[0;-2YFrancyMonoids automatic generated documentation o\
+f methods\033[133X\033[101X", "1.1", [ 1, 1, 0 ], 4, 3, 
+      "francymonoids automatic generated documentation of methods", 
+      "X7A7F12647DBD2C49" ], 
+  [ 
+      "\033[1X\033[33X\033[0;-2YFrancyMonoids automatic generated documentation o\
+f global functions\033[133X\033[101X", "1.2", [ 1, 2, 0 ], 40, 4, 
+      "francymonoids automatic generated documentation of global functions", 
+      "X8769AEF77920E73C" ], 
+  [ "Index", "ind", [ "Ind", 0, 0 ], 1, 5, "index", "X83A0356F839C696F" ], 
+  [ "\033[2XDrawFactorizationGraph\033[102X for isrectangulartable", "1.1-1", 
+      [ 1, 1, 1 ], 7, 3, "drawfactorizationgraph for isrectangulartable", 
+      "X7BCF8A9C80766478" ], 
+  [ "\033[2XDrawEliahouGraph\033[102X for isrectangulartable", "1.1-2", 
+      [ 1, 1, 2 ], 18, 3, "draweliahougraph for isrectangulartable", 
+      "X7D6ED35C7DDC0441" ], 
+  [ "\033[2XDrawRosalesGraph\033[102X for ishomogeneouslist,isaffinesemigroup"
+        , "1.1-3", [ 1, 1, 3 ], 28, 3, 
+      "drawrosalesgraph for ishomogeneouslist isaffinesemigroup", 
+      "X7BAFA5FD8587320E" ], 
+  [ "\033[2XDrawRosalesGraph\033[102X for isint,isnumericalsemigroup", 
+      "1.1-4", [ 1, 1, 4 ], 36, 3, 
+      "drawrosalesgraph for isint isnumericalsemigroup", "X81516F4E7F220EAA" ]
+    , [ "\033[2XDrawOverSemigroupsNumericalSemigroup\033[102X", "1.2-1", 
+      [ 1, 2, 1 ], 43, 4, "drawoversemigroupsnumericalsemigroup", 
+      "X8575E9C68739B408" ], 
+  [ "\033[2XDrawTreeOfSonsOfNumericalSemigroup\033[102X", "1.2-2", 
+      [ 1, 2, 2 ], 51, 4, "drawtreeofsonsofnumericalsemigroup", 
+      "X83B9B9F47F8D6C4C" ], 
+  [ "\033[2XDrawHasseDiagramOfNumericalSemigroup\033[102X", "1.2-3", 
+      [ 1, 2, 3 ], 59, 4, "drawhassediagramofnumericalsemigroup", 
+      "X7D16EFDD7F2CC7C9" ], 
+  [ "\033[2XDrawTreeOfGluingsOfNumericalSemigroup\033[102X", "1.2-4", 
+      [ 1, 2, 4 ], 67, 4, "drawtreeofgluingsofnumericalsemigroup", 
+      "X7DE89AFA803BBDDF" ] ]
+);

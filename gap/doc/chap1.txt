@@ -1,0 +1,75 @@
+  
+  [1X1 [33X[0;0YFrancyMonoids automatic generated documentation[133X[101X
+  
+  
+  [1X1.1 [33X[0;0YFrancyMonoids automatic generated documentation of methods[133X[101X
+  
+  [1X1.1-1 DrawFactorizationGraph[101X
+  
+  [33X[1;0Y[29X[2XDrawFactorizationGraph[102X( [3Xf[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0Yf is a set of factorizations Draws the graph of factorizations associated to
+  f:  a  complete  graph   whose  vertices  are  the  elements of f. Edges are
+  labelled  with  distances between nodes they join. Kruskal algorithm is used
+  to  draw  in  red  a  spannin tree with minimal distances. Thus the catenary
+  degree is reached in the edges of the tree.[133X
+  
+  [1X1.1-2 DrawEliahouGraph[101X
+  
+  [33X[1;0Y[29X[2XDrawEliahouGraph[102X( [3Xf[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0Yf  is  a  set  of  factorizations  Draws the Eliahou graph of factorizations
+  associated to f: a graph  whose vertices are the elements of f, and there is
+  an edge between two vertices if they have common support. Edges are labelled
+  with distances between nodes they join.[133X
+  
+  [1X1.1-3 DrawRosalesGraph[101X
+  
+  [33X[1;0Y[29X[2XDrawRosalesGraph[102X( [3Xn[103X, [3Xs[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0Ys  is  either  a  numerical  semigroup  or  an affine semigroup, and n is an
+  element of s Draws the graph associated to n in s.[133X
+  
+  [1X1.1-4 DrawRosalesGraph[101X
+  
+  [33X[1;0Y[29X[2XDrawRosalesGraph[102X( [3Xarg1[103X, [3Xarg2[103X ) [32X operation[133X
+  
+  
+  [1X1.2 [33X[0;0YFrancyMonoids automatic generated documentation of global functions[133X[101X
+  
+  [1X1.2-1 DrawOverSemigroupsNumericalSemigroup[101X
+  
+  [33X[1;0Y[29X[2XDrawOverSemigroupsNumericalSemigroup[102X( [3Xs[103X ) [32X function[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0YDraws  the  Hasse diagram of   oversemigroupstree of the numerical semigroup
+  s. Irreducible numerical semigroups are highlighted.[133X
+  
+  [1X1.2-2 DrawTreeOfSonsOfNumericalSemigroup[101X
+  
+  [33X[1;0Y[29X[2XDrawTreeOfSonsOfNumericalSemigroup[102X( [3Xs[103X, [3Xl[103X, [3Xgenerators[103X ) [32X function[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0YDraws  the tree of sons of numerical semigroups up to level l with   respect
+  to the minimal system of generators given by the function generators.[133X
+  
+  [1X1.2-3 DrawHasseDiagramOfNumericalSemigroup[101X
+  
+  [33X[1;0Y[29X[2XDrawHasseDiagramOfNumericalSemigroup[102X( [3Xs[103X, [3XA[103X ) [32X function[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0Yplots a graph whose set of vertices is A, which is a finite set of integers,
+  and whose edges are provided by the order of the numerical semigroup s.[133X
+  
+  [1X1.2-4 DrawTreeOfGluingsOfNumericalSemigroup[101X
+  
+  [33X[1;0Y[29X[2XDrawTreeOfGluingsOfNumericalSemigroup[102X( [3Xs[103X[, [3Xexpand[103X] ) [32X function[133X
+  [6XReturns:[106X  [33X[0;10Ya drawing[133X
+  
+  [33X[0;0YReturns  a Francy canvas with the tree of gluings of the numerical semigroup
+  s. If the optional argument expand is provided, then the tree is drawn fully
+  expanded.[133X
+  

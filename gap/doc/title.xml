@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an automatically generated file. -->
+<TitlePage>
+  <Title>
+    FrancyMonoids
+  </Title>
+  <Subtitle>
+    FrancyMonoids/A package to display commutative monoid objects with francy
+  </Subtitle>
+  <Version>
+    0.1
+  </Version>
+  <Author>
+    Garcia-Sanchez Pedro A.<Alt Only="LaTeX"><Br/></Alt>
+<Address>
+Departamento de Álgebra, Facultad de Ciencias<Br/>
+Universidad de Granada, 18071 Granada<Br/>
+Spain<Br/>
+</Address>
+<Email>pedro@ugr.es</Email>
+<Homepage>https://www.ugr.es/~pedro</Homepage>
+
+  </Author>
+  <Author>
+    Herrera-Poyatos Andres<Alt Only="LaTeX"><Br/></Alt>
+<Address>
+Departamento de Álgebra, Facultad de Ciencias<Br/>
+Universidad de Granada, 18071 Granada<Br/>
+Spain<Br/>
+</Address>
+<Email>andreshp99@gmailcom</Email>
+<Homepage>https://github.com/andreshp</Homepage>
+
+  </Author>
+  <Author>
+    Martins Manuel<Alt Only="LaTeX"><Br/></Alt>
+<Email>manuelmachadomartins@gmail.com</Email>
+<Homepage>http://github.com/mcmartins</Homepage>
+
+  </Author>
+  <Date>
+    4 June 2018
+  </Date>
+  </TitlePage>

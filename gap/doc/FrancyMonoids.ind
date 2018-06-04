@@ -1,0 +1,18 @@
+\begin{theindex}
+
+  \item \texttt  {DrawEliahouGraph}
+    \subitem for IsRectangularTable, \hyperpage{3}
+  \item \texttt  {DrawFactorizationGraph}
+    \subitem for IsRectangularTable, \hyperpage{3}
+  \item \texttt  {Draw}\-\texttt  {Hasse}\-\texttt  {Diagram}\-\texttt  {Of}\-\texttt  {Numerical}\-\texttt  {Semigroup}, 
+		\hyperpage{4}
+  \item \texttt  {Draw}\-\texttt  {Over}\-\texttt  {Semigroups}\-\texttt  {Numerical}\-\texttt  {Semigroup}, 
+		\hyperpage{4}
+  \item \texttt  {DrawRosalesGraph}
+    \subitem for IsHomogeneousList,IsAffineSemigroup, \hyperpage{3}
+    \subitem for IsInt,IsNumericalSemigroup, \hyperpage{3}
+  \item \texttt  {Draw}\-\texttt  {Tree}\-\texttt  {Of}\-\texttt  {Gluings}\-\texttt  {Of}\-\texttt  {Numerical}\-\texttt  {Semigroup}, 
+		\hyperpage{4}
+  \item \texttt  {DrawTreeOfSonsOfNumericalSemigroup}, \hyperpage{4}
+
+\end{theindex}
