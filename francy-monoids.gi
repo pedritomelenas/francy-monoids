@@ -209,7 +209,7 @@ InstallGlobalFunction(DrawOverSemigroupsNumericalSemigroup, function(s)
     c:=hasse(c);
     ovs:=[];
     for i in [1..n] do
-    lbl:=Concatenation("$\\langle",JoinStringsWithSeparator(MinimalGenerators(ov[i]),","),"\\rangle$");
+    lbl:=Concatenation("〈 ",JoinStringsWithSeparator(MinimalGenerators(ov[i]),",")," 〉");
 
 
         if IsIrreducible(ov[i]) then
@@ -252,7 +252,7 @@ function(s,l,generators)
         gens:=Filtered(generators(s), x-> x>frb);
         desc:=List(gens, g->RemoveMinimalGeneratorFromNumericalSemigroup(g,s));
         for d in desc do
-            lbl:=Concatenation("$\\{",JoinStringsWithSeparator(generators(d),","),"\\}$");
+            lbl:=Concatenation("{",JoinStringsWithSeparator(generators(d),","),"}");
             shp:=Shape(ShapeType!.CIRCLE, lbl);
             SetSize(shp,5);
             Add(graphTreee,shp);
