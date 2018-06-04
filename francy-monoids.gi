@@ -198,6 +198,10 @@ InstallGlobalFunction(DrawOverSemigroupsNumericalSemigroup, function(s)
       return Difference(rel,out);
     end;
 
+    if not(IsNumericalSemigroup(s)) then 
+        Error("The argument must be a numerical semigroup");
+    fi;
+
     ov:=OverSemigroupsNumericalSemigroup(s);
     n:=Length(ov);
     graphHasse := Graph(GraphType.DIRECTED);
@@ -266,6 +270,10 @@ function(s,l,generators)
         return ;
     end;
 
+    if not(IsNumericalSemigroup(s)) then 
+        Error("The argument must be a numerical semigroup");
+    fi;
+
     frb:=FrobeniusNumber(s);
     gens:=Filtered(generators(s), x-> x>frb);
     desc:=List(gens, g->RemoveMinimalGeneratorFromNumericalSemigroup(g,s));
@@ -300,7 +308,11 @@ function(s, A, t...)
     if not IsNumericalSemigroup(s) then
         Error("The argument must be a numerical semigroup.\n");
     fi;
-    
+
+    if not(IsListOfIntegersNS(A)) then
+        Error("The second argument must be a list of integers");
+    fi;
+
     if Length(t) > 0 then
         title := t[1];
     else
@@ -454,13 +466,17 @@ function(s, expand...)
         return ;
     end;
 
+    if not IsNumericalSemigroup(s) then
+        Error("The argument must be a numerical semigroup.\n");
+    fi;
+
     tree := Graph(GraphType.TREE);
     root := Shape(ShapeType!.CIRCLE, SystemOfGeneratorsToString(MinimalGenerators(s)));
     SetSize(root, 1);           
     Add(tree, root);
 
     if expand_tree then 	
-	SetCollapsed(tree, false);
+    	SetCollapsed(tree, false);
     fi;
 
     canvas := Canvas("Gluings of a numerical semigroup");
