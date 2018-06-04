@@ -19,6 +19,9 @@ This package requires [francy](https://github.com/mcmartins/francy) and [numeric
 
 ### Trees 
 
+- `DrawTreeOfGluingsOfNumericalSemigroup`
+- `DrawTreeOfSonsOfNumericalSemigroup`
+
 ## Examples
 
 See the examples in the jupyter notebook or in Examples directory.
