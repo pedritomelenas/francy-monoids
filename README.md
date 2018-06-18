@@ -24,4 +24,4 @@ This package requires [francy](https://github.com/mcmartins/francy) and [numeric
 
 ## Examples
 
-You can see this in action with binder.
+You can see this in action with [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pedritomelenas/francy-monoids/master?filepath=Examples%2Ffrancy-monoids.ipynb)
